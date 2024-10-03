@@ -51,10 +51,12 @@ HTTP - Swagger
 http://localhost:3000/api-docs
 
 GET - Report
-http://localhost:3000/report/<MetricId>/<DateInitial>/<FinalDate>
+http://localhost:3000/report/MetricId/DateInitial/FinalDate
+##### Example: http://localhost:3000/extraction/v1/report/218219/2023-11-01/2023-12-01
 
 GET - Get Metric
-http://localhost:3000/report/<MetricId>/<AggType>/<DateInitial>/<FinalDate>
+http://localhost:3000/report/MetricId/AggType/DateInitial/FinalDate
+##### Example: http://localhost:3000/extraction/v1/metrics/218219/DAY/2023-11-01/2023-12-01
 
 ## Run tests
 
